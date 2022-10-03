@@ -116,6 +116,18 @@ ul {
 footer {
     background-color: var(--back-color);
 }
+.logo-footer {
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway';
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 0;
+}
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -135,6 +147,10 @@ footer {
     font-size: 14px;
     line-height: 2;
     color:var(--hero-text-color);
+}
+.footer-nav {
+    padding: 0;
+    margin-left: 215px;
 }
 .footer-list :hover,
 .footer-list :active,
@@ -188,7 +204,11 @@ footer {
 
 .portfolio-contend {
     text-decoration: none;
+}
+.portfolio-list {
+    margin-bottom: 30px;
     margin-left: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-img {
@@ -198,6 +218,7 @@ footer {
     top: 262px;
 }
 .portfolio-work {
+    padding-left: 24px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -205,6 +226,8 @@ footer {
     text-decoration: none;
 }
 .portfolio-text {
+    margin-top: 4px;
+    padding-left: 24px;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.87;
@@ -216,9 +239,12 @@ footer {
 /* main-page */
 
 .main-section {
+    height: 600px;
+    width: 1600px;
     background: var(--back-color);
     text-align: center;
 }
+
 .top-text {
     margin-top: 0;
     margin-bottom: 30px;
