@@ -13,12 +13,23 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    width: 1600px;
 }
+
 ul {
     list-style: none;
 }
 
+
 /* header */
+.header {
+    align-items: center;
+    display: flex;
+}
+.main-header {
+    display: flex;
+    align-items:center
+}
 .active-page {
     text-decoration: none;
     font-weight: 500;
@@ -28,18 +39,35 @@ ul {
     color: var(--active-page-color);
 }
 .logo {
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-bottom: 25px;
     font-family: 'Raleway';
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    margin-right: 0;
 }
 .logo-web {
     color: var(--web-color);
 }
 
 /* head-nav */
+.head-navs {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 93px;
+    padding-left: 0;
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
 .head-nav {
     text-decoration: none;
     font-weight: 500;
@@ -48,6 +76,22 @@ ul {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
+
+.head-filtr + .head-filtr {
+    margin-left: 50px;
+}
+
+.contacts {
+    display: flex;
+    padding-left: 0;
+    margin-top: 32px;
+    margin-right: 215px;
+    margin-bottom: 32px;
+    margin-left: 344px;
+}
+.contact + .contact {
+    margin-left: 50px;
+}
 .contact {
     text-decoration: none;
     font-weight: 500;
@@ -55,9 +99,6 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-}
-.head-contact {
-    margin: 0;
 }
 
 .head-filtr :focus,
@@ -127,9 +168,29 @@ footer {
 .portfolio-mainn {
     text-decoration: none;
 }
+
+.portfolio-filter-button {
+    margin-left: 512px;
+    display: flex;
+    padding-left: 0;
+}
+
+.portfolio-filter + .portfolio-filter {
+    margin-left: 8px;
+}
+.portfolio-main-contend {
+    margin-top: 50px;
+    margin-left: 215px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .portfolio-contend {
     text-decoration: none;
+    margin-left: 30px;
 }
+
 .portfolio-img {
     width: 370px;
     height: 294px;
@@ -165,7 +226,7 @@ footer {
     font-size: 44px;
     line-height: 1.36;
     color: var(--hero-text-color);
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .button-hero {
     font-weight: 700;
