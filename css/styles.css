@@ -9,6 +9,240 @@
   
   body {
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
+=======
+    letter-spacing: 0.03em;
+    width: 1600px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* header */
+.header {
+    align-items: center;
+    display: flex;
+}
+.main-header {
+    display: flex;
+    align-items:center
+}
+.active-page {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--active-page-color);
+}
+.logo {
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway';
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 0;
+}
+.logo-web {
+    color: var(--web-color);
+}
+
+/* head-nav */
+.head-navs {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 93px;
+    padding-left: 0;
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.head-nav {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.head-filtr + .head-filtr {
+    margin-left: 50px;
+}
+
+.contacts {
+    display: flex;
+    padding-left: 0;
+    margin-top: 32px;
+    margin-right: 215px;
+    margin-bottom: 32px;
+    margin-left: 344px;
+}
+.contact + .contact {
+    margin-left: 50px;
+}
+.contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.head-filtr :focus,
+.head-filtr :hover,
+.head-filtr :active{
+    color: var(--hover-text-color)
+}
+.contact :hover,
+.contact :focus,
+.contact :active {
+    color: var(--hover-text-color)
+}
+
+/* footer  */
+footer {
+    background-color: var(--back-color);
+}
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 2;
+    text-decoration: none;
+}
+.footer-contact :focus,
+.footer-contact :active
+.footer-contact :hover {
+    color: var(--hover-text-color)
+}
+.footer-adress {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color:var(--hero-text-color);
+}
+.footer-list :hover,
+.footer-list :active,
+.footer-list :focus {
+    color: var(--hover-text-color)
+}
+.footer-studio {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--hero-text-color)
+}
+
+/* portfolio main */
+.portfolio-filter :active,
+.portfolio-filter :hover,
+.portfolio-filter :focus {
+    color: var(--hero-text-color);
+    background-color: var(--hover-text-color);
+}
+
+.button {
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    background: var(--button-back-color);
+    border: 0;
+}
+
+.portfolio-mainn {
+    text-decoration: none;
+}
+
+.portfolio-filter-button {
+    margin-left: 512px;
+    display: flex;
+    padding-left: 0;
+}
+
+.portfolio-filter + .portfolio-filter {
+    margin-left: 8px;
+}
+.portfolio-main-contend {
+    margin-top: 50px;
+    margin-left: 215px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-contend {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.portfolio-img {
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 262px;
+}
+.portfolio-work {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+}
+.portfolio-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+
+/* main-page */
+
+.main-section {
+    background: var(--back-color);
+    text-align: center;
+}
+.top-text {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--hero-text-color);
+    text-transform: uppercase;
+}
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--hero-text-color);
+    background-color:var(--button-hero-color);
+}
+
+.mid-work {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.mid-text {
+    font-weight: 400;
+>>>>>>> parent of 6923f1b (зщкеащдшщ)
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-text-color);
