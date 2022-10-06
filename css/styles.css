@@ -83,7 +83,6 @@ ul {
 /*---------------------------- Header--------------------------- */
 
 .header {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid var(--border-line);
@@ -107,11 +106,13 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px;
+  height: 80px;
 }
 
 .site-nav {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .sub-nav {
@@ -163,7 +164,6 @@ ul {
 /*-----------------------------Studio page-Hero------------------------------- */
 
 .hero.section {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
@@ -214,7 +214,6 @@ ul {
 
 
 .features.section {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -224,7 +223,9 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
+.features .items .item:not(:last-child) {
+  margin-right: 30px;
+}
 .features .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -248,7 +249,6 @@ ul {
 /* -------------------------Studio page - Services------------------------------ */
 
 .services.section {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 0;
@@ -278,7 +278,6 @@ ul {
 /*------------------------- Studio page - Team---------------------------------- */
 
 .team.section {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondary-background-color);
@@ -308,6 +307,9 @@ ul {
   background-color: var(--primary-background-color);
   padding-bottom: 30px;
 }
+.team-text {
+  padding: 30px 70px
+}
 
 .team .img {
   display: block;
@@ -332,7 +334,6 @@ ul {
 /* ------------------------Portfolio page - Buttons--------------------------------- */
 
 .portfolio.section {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -374,7 +375,9 @@ ul {
 .portfolio .items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+}
+.portfolio .items .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .portfolio-description {
@@ -384,10 +387,6 @@ ul {
   border-bottom: 1px solid var(--card-border);
   background-color: var(--primary-background-color);
   padding: 20px 24px;
-}
-
-.portfolio .item:nth-child(-n+6) {
-  margin-bottom: 30px;
 }
 
 .portfolio-img {
@@ -417,7 +416,6 @@ ul {
 /* ------------------------------Footer------------------------------------- */
 
 .footer {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hero-footer-background-color);
