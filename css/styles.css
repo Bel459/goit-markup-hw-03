@@ -96,6 +96,8 @@ ul {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-black {
@@ -111,17 +113,19 @@ ul {
 
 .site-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .sub-nav {
   display: flex;
   align-items: center;
+  padding: 32px 0;
+  gap: 50px;
 }
 
 .contacts-header {
+  gap: 50px;
   display: flex;
+  padding: 32px 0;
 }
 
 .sub-nav .item {
@@ -132,9 +136,7 @@ ul {
   color: var(--title-color);
 }
 
-.sub-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
+
 
 .site-nav .active {
   color: var(--accent-color);
@@ -152,9 +154,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.contacts-header .item:first-child {
-  margin-right: 50px;
-}
+
 
 .contacts-header .item:hover,
 .contacts-header .item:focus {
@@ -221,11 +221,9 @@ ul {
 
 .features .items {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
-.features .items .item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .features .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -268,7 +266,7 @@ ul {
 
 .services .items {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .services .img {
@@ -296,7 +294,7 @@ ul {
 
 .team .items {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .team .item {
@@ -305,10 +303,9 @@ ul {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--primary-background-color);
-  padding-bottom: 30px;
 }
 .team-text {
-  padding: 30px 70px
+  padding: 30px 0;
 }
 
 .team .img {
@@ -321,10 +318,10 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  margin-bottom: 10px;
 }
 
 .team .text {
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -374,10 +371,9 @@ ul {
 .portfolio .items {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
-.portfolio .items .item:not(:last-child) {
-  margin-right: 30px;
-}
+
 
 .portfolio-description {
   width: 370px;
